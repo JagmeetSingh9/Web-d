@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oils</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <form action="/my-article" method="POST" class="form-horizontal">
+
+            <!-- Form Name -->
+            <h1 style="margin: auto; width: 90%;">New Article</h1>
+
+            <!-- Text input-->
+            <div style="margin: auto; width: 80%;">
+                <div class="form-group">
+                    <h2 class="row-md-7">Title</h2>
+                    <div class="row-md-7">
+                        <input name="title" class="form-control input-md" type="text">
+                    </div>
+                </div>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <h2 class="row-md-7">Descript</h2>
+                    <div class="row-md-7">
+                        <input name="description" class="form-control input-md" required type="text">
+                    </div>
+                </div>
+    
+               
+                <div class="form-group">
+                    <h2 class="row-md-7">Mark Down </h2>
+                    <div class="row-md-7">
+                        <input name="markdown" class="form-control input-md" required type="text">
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                   
+                    <button type="submit" class="btn btn-primary btn-lg"
+                        style="margin-left: 10px; color: white; text-decoration: none;">Save</button>
+                </div>
+            </div>
+        
+    </form>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
